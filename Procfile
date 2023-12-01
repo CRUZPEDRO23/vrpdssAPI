@@ -1,1 +1,1 @@
-web: python app_vrp.py runserver
+web: gunicorn app:app
