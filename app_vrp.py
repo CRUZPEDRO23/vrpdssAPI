@@ -114,8 +114,9 @@ def index():
 
 
 def main():
-    port = int(os.environ.get("PORT", 35547)) # Pegar PORT do host
-    app.run(debug=False, port = port)#host="0.0.0.0", 
+    #port = int(os.environ.get("PORT", 35547)) # Pegar PORT do host
+    #app.run(debug=False, port = port)#host="0.0.0.0", 
+    app.run(debug=False)
     #app.run()
 
 if __name__ == "__main__":
